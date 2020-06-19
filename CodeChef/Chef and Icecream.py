@@ -16,10 +16,18 @@ for t in range(int(input())):
                 print("NO")
                 break
         if m == 15:
-            try:
-                ten.pop()
-            except IndexError:
-                print("NO")
-                break
+            if len(ten) == 0:
+                try:
+                    five.pop()
+                    five.pop()
+                except IndexError:
+                    print("NO")
+                    break
+            else:
+                try:
+                    ten.pop()
+                except IndexError:
+                    print("NO")
+                    break
     else:
         print("YES")
