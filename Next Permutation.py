@@ -1,5 +1,4 @@
-# nums = [1, 2, 3]
-nums = [1, 2, 3, 6, 5, 4]
+nums = [1, 2, 3]
 arr_len = len(nums) - 1
 idx = -1
 while 0 < arr_len:
