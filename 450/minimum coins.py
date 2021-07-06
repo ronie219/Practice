@@ -14,3 +14,16 @@ def coin_count(target, coins):
 coins = [1, 7, 10]
 target = 39
 print(coin_count(target, coins))
+
+class Test:
+    
+    def __init__(self,name):
+        self.name = name
+    
+    
+    def print_name(self):
+        print(self.name)
+       
+       
+object = Test("Abhishek")
+object.print_name()
