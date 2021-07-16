@@ -15,6 +15,6 @@ def power_set(string, idx=0, current=''):
         current += string[idx]
         power_set(string,idx+1,current)
 
-string = 'abc'
+string = ['a','b','c']
 # subsequence("",0,string)
 power_set(string)
