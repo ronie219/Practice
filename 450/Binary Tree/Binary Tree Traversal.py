@@ -84,6 +84,7 @@ class BinaryTree:
                 current = current.right
         print()
 
+
 s = BinaryTree()
 root = s.insert()
 # print("Post order")
