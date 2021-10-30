@@ -1,76 +1,70 @@
+from typing import Counter
+
+
 class Node:
 
-    # Constructor to initialize the node object
-    def __init__(self, data):
+    def __init__(self,data) -> None:
         self.data = data
         self.next = None
 
+class LinkList:
 
-class LinkedList:
+    def __init__(self) -> None:
+        self.head = None 
 
-    # Function to initialize head
-    def __init__(self):
-        self.head = None
 
-    def push(self, new_data):
-        new_node = Node(new_data)
-        new_node.next = self.head
-        self.head = new_node
+    def push(self,data):
+        if self.head is None:
+            self.head = Node(data)
+            return
+        curr = self.head
+        while curr.next:
+            curr = curr.next
+        curr.next = Node(data)
 
-    # Utility function to print the linked LinkedList
-    def printList(self):
-        temp = self.head
-        while (temp):
-            print(temp.data)
-            temp = temp.next
+    def __str__(self) -> str:
+        items = []
+        cur = self.head
+        
+        while cur:
+            items.append(str(cur.data))
+            cur = cur.next
+        return " --> ".join(items)
 
-    def reverseListItter(self):
+    def reverse(self):
         prev = None
-        current = self.head
-        while current is not None:
-            next = current.next
-            current.next = prev
-            prev = current
-            current = next
-        self.head = prev
-
-    def reverseListRecurr(self, head):
-        if head is None or head.next is None:
-            return head
-        list = self.reverseListRecurr(head.next)
-        head.next.next = head
-        head.next = None
-        return list
-
-    def kreverse(self, head, k):
-        prev = None
-        current = head
+        curr = self.head
         next = None
-        for idx in range(k):
-            if current is not None:
-                next = current.next
-                current.next = prev
-                prev = current
-                current = next
-            else:
-                break
+        while curr:
+            next = curr.next
+            curr.next = prev
+            prev = curr
+            curr = next
+        self.head = prev
+    
+    def _recursive_reverse(self,head,prev):
+        if head.next is None: 
+            self.head = head
+            head.next = prev
+            return
+        self._recursive_reverse(head.next,head)
+        head.next = prev
 
-        if next is not None:
-            current.next = self.kreverse(next,k)
 
-        return prev
+    def recursive_reverse(self):
+        if self.head is not None:
+            self._recursive_reverse(self.head,None)
+            
+    
 
+linkedList = LinkList()
+linkedList.push(20)
+linkedList.push(4)
+linkedList.push(15)
+linkedList.push(85)
 
-
-llist = LinkedList()
-llist.push(20)
-llist.push(4)
-llist.push(15)
-llist.push(85)
-print("Given Linked List")
-llist.printList()
-kreverse = llist.kreverse(llist.head,3)
-
-print("List reversed")
-
-llist.printList()
+print("*" * 10)
+print(linkedList)
+linkedList.recursive_reverse()
+print(("*" * 10 )+ " reversed list " + ("*" * 10))
+print(linkedList)
