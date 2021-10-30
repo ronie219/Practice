@@ -13,6 +13,7 @@ def coin_count(target, coins):
 
 coins = [1, 7, 10]
 target = 39
+<<<<<<< HEAD
 print(coin_count(target, coins))
 
 class Test:
@@ -27,3 +28,6 @@ class Test:
        
 object = Test("Abhishek")
 object.print_name()
+=======
+print(coin_count(target, coins))
+>>>>>>> 7f688d62f8ef42d5982882d6981075fb426ea81a
