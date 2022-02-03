@@ -3,11 +3,12 @@ def LongestRepeatingSubsequence(string):
     current_string = ''
     for i in range(len(string) - 1):
         if string[i] != string[i + 1]:
-            if len(longest_string) < len(current_string): longest_string = current_string
+            if len(longest_string) < len(current_string):
+                longest_string = current_string
         else:
             current_string += string[i]
 
     return len(longest_string)
 
 
-print(LongestRepeatingSubsequence('agcsorvauz'))
+print(LongestRepeatingSubsequence('abcabc'))

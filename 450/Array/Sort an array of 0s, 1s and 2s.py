@@ -8,19 +8,19 @@
 #
 # print(sort012([0, 2, 1, 2, 0]))
 
-arr = [0,2,1, 0,1]
-i = 0
-j = 0
-k = len(arr) -1
-while j <= k:
-    if arr[j] == 0:
-        arr[i],arr[j] = arr[j],arr[i]
-        i += 1
-        j += 1
-    elif arr[j] == 2:
-        arr[j],arr[k] = arr[k],arr[j]
-        k -= 1
+arr = [0, 2, 1, 0, 1]
+one = 0
+zero = 0
+two = len(arr) - 1
+while two <= two:
+    if arr[two] == 0:
+        arr[one], arr[two] = arr[two], arr[one]
+        one += 1
+        two += 1
+    elif arr[two] == 2:
+        arr[two], arr[two] = arr[two], arr[two]
+        two -= 1
         # j += 1
     else:
-        j += 1
+        two += 1
 print(arr)

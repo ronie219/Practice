@@ -11,14 +11,12 @@ def power_set(string, idx=0, current=''):
     if idx == len(string):
         print(current)
     else:
-        power_set(string,idx+1,current)
+        power_set(string, idx+1, current)
         current += string[idx]
-        power_set(string,idx+1,current)
+        power_set(string, idx+1, current)
 
-<<<<<<< HEAD
-string = ['a','b','c']
-=======
+
+string = ['a', 'b', 'c']
 string = 'abc'
->>>>>>> 7f688d62f8ef42d5982882d6981075fb426ea81a
 # subsequence("",0,string)
 power_set(string)
