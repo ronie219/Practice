@@ -93,12 +93,12 @@ class Graph:
             if neighbour not in visited:
                 self._dfs(neighbour, visited, arr)
 
-
     def DFS(self, start):
         visited = set()
         arr = []
-        self._dfs(start,visited, arr)
+        self._dfs(start, visited, arr)
         print(arr)
+
 
 if __name__ == '__main__':
     graph = Graph()

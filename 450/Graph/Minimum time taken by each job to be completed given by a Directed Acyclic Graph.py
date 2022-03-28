@@ -1,26 +1,28 @@
 from collections import defaultdict, deque
- 
+
+
 # Class to represent a graph
 class Graph:
-     
+
     def __init__(self, vertices, edges):
-         
+
         # Dictionary containing adjacency List
         self.graph = defaultdict(list)
-         
+
         # No. of vertices
-        self.n = vertices 
-         
+        self.n = vertices
+
         # No. of edges
-        self.m = edges 
-         
-    # Function to add an edge to graph
+        self.m = edges
+
+        # Function to add an edge to graph
+
     def addEdge(self, u, v):
         self.graph[u].append(v)
-    
+
     def _findIndegree(self, n):
-        inDegree= {}
-        for idx in range(1, n+1):
+        inDegree = {}
+        for idx in range(1, n + 1):
             if idx not in inDegree:
                 inDegree[idx] = 0
             else:
@@ -31,7 +33,6 @@ class Graph:
                 else:
                     inDegree[edge] = 0
         return inDegree
-
 
     def minimunTime(self, n, m):
         inDegree = self._findIndegree(n)
@@ -50,15 +51,14 @@ class Graph:
                     var = time_arr[vertex - 1]
                     time_arr[edge - 1] = var + 1
         return time_arr
-        
-        
+
 
 if __name__ == '__main__':
     n = 10
     m = 13
-    
+
     g = Graph(n, m)
-    
+
     # Given Directed Edges of graph
     g.addEdge(1, 3)
     g.addEdge(1, 4)
@@ -73,6 +73,6 @@ if __name__ == '__main__':
     g.addEdge(6, 7)
     g.addEdge(7, 8)
     g.addEdge(8, 10)
-    
+
     # Function Call
     print(g.minimunTime(n, m))
