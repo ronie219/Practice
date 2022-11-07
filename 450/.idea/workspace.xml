@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20238d1d-5296-4ddf-8976-2241aaed68f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dynamic Programing/All Possible Full Binary Trees.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Wired Connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rev/Balannced Binary Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rev/Binary tree to DLL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rev/Combination Sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rev/Delete node from BST.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rev/Diangonal Traversal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rev/Dijkstra's.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rev/Duplicate subtree in Binary Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rev/Jump Game ll.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rev/Krushkal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rev/LCS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rev/Maximum Earnings From Taxi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rev/Minimum time taken by each job to be completed given by a Directed Acyclic Graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rev/balanced bracket.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rev/isBST.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rev/recur.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rev/topolodicalSort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binary Search Tree/PreToBST.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search Tree/PreToBST.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programing/Knapsack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programing/Knapsack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FINAL450.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/FINAL450.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/Alien Dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/Alien Dictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/Cycle in undireted graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/Cycle in undireted graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/Dijkstra’s.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/Dijkstra’s.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/Minimum time taken by each job to be completed given by a Directed Acyclic Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/Minimum time taken by each job to be completed given by a Directed Acyclic Graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/Union By Rank and Path Compression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/Union By Rank and Path Compression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rev/Quick Sort on LinkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rev/Quick Sort on LinkList.py" afterDir="false" />
-    </list>
+    <list default="true" id="20238d1d-5296-4ddf-8976-2241aaed68f4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Test/Test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
